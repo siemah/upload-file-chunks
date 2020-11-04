@@ -1,19 +1,4 @@
-# preact-app
+# Upload file to server after slicing it to several chunks and upload those chunks to the server using javascript(nodejs, react/preact)
 
-## CLI Commands
-*   `npm install`: Installs dependencies
-
-*   `npm run dev`: Run a development, HMR server
-
-*   `npm run serve`: Run a production-like server
-
-*   `npm run build`: Production-ready build
-
-*   `npm run lint`: Pass TypeScript files using TSLint
-
-*   `npm run test`: Run Jest and Enzyme with
-    [`enzyme-adapter-preact-pure`](https://github.com/preactjs/enzyme-adapter-preact-pure) for
-    your tests
-
-
-For detailed explanation on how things work, checkout the [CLI Readme](https://github.com/developit/preact-cli/blob/master/README.md).
+The front end code is in file ./src/routes/home/index.tsx
+and the server side code are located at ./server/index.js
